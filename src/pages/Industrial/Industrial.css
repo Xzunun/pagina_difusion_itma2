@@ -1,0 +1,72 @@
+.efecto-blur-industrial {
+    filter: blur(10px);
+}
+.fondo-blur-industrial {
+    background-color: rgba(35, 91, 78, 0.75);
+}
+
+.titulo-encabezado-industrial {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+
+.subtitulo-encabezado-industrial {
+    font-size: 2vw;
+}
+
+.service-item-industrial {
+    position: relative;
+    padding: 45px 30px;
+    background: #fff;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item-industrial:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: #235b4e;
+}
+
+.service-item-industrial h5,
+.service-item-industrial p {
+    transition: .5s;
+}
+
+.service-item-industrial:hover h5,
+.service-item-industrial:hover p {
+    color: #fff;
+}
+
+.service-item-industrial a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6c757d;
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item-industrial a.btn:hover {
+    color: #fff;
+    background: #6c757d;
+}
+
+.service-item-industrial:hover a.btn {
+    bottom: 0;
+}
+
+.carousel-label-ind {
+    background-color: #235b4e;
+}
+
+.text-ind {
+    color: #235b4e;
+}

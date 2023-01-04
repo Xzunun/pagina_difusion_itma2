@@ -1,0 +1,117 @@
+
+/* Estilos de redes sociales para inicio */
+
+.redes-sociales-inicio {
+    margin: 6rem 0;
+    background:
+        url('../../../public/assets/img/fondos/figura_superior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_superior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_centro.png'),
+        #198754
+    ;
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales-inicio a:hover {
+    animation: rotar 1s ease-out;
+}
+
+/* Estilos de redes sociales para sistemas */
+
+.redes-sociales-sistemas {
+    margin: 6rem 0;
+    background:
+        url('../../../public/assets/img/fondos/figura_superior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_superior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_centro.png'),
+        #1b396a
+    ;
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales-sistemas a:hover {
+    animation: rotar 1s ease-out;
+}
+
+/* Estilos de redes sociales para gestion */
+
+.redes-sociales-gestion {
+    margin: 6rem 0;
+    background:
+        url('../../../public/assets/img/fondos/figura_superior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_superior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_centro.png'),
+        #621132
+    ;
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales-gestion a:hover {
+    animation: rotar 1s ease-out;
+}
+
+/* Estilos de redes sociales para industrial */
+
+.redes-sociales-industrial {
+    margin: 6rem 0;
+    background:
+        url('../../../public/assets/img/fondos/figura_superior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_superior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_izquierda.png'),
+        url('../../../public/assets/img/fondos/figura_inferior_derecha.png'),
+        url('../../../public/assets/img/fondos/figura_centro.png'),
+        #235b4e
+    ;
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales-industrial a:hover {
+    animation: rotar 1s ease-out;
+}
+
+.icono-red-social {
+    font-size: 4rem;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

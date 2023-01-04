@@ -1,0 +1,72 @@
+.efecto-blur-gestion {
+    filter: blur(10px);
+}
+.fondo-blur-gestion {
+    background-color: rgba(98, 17, 50, 0.75);
+}
+
+.titulo-encabezado-gestion {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+
+.subtitulo-encabezado-gestion {
+    font-size: 2vw;
+}
+
+.service-item-gestion {
+    position: relative;
+    padding: 45px 30px;
+    background: #fff;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item-gestion:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: #621132;
+}
+
+.service-item-gestion h5,
+.service-item-gestion p {
+    transition: .5s;
+}
+
+.service-item-gestion:hover h5,
+.service-item-gestion:hover p {
+    color: #fff;
+}
+
+.service-item-gestion a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6c757d;
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item-gestion a.btn:hover {
+    color: #fff;
+    background: #6c757d;
+}
+
+.service-item-gestion:hover a.btn {
+    bottom: 0;
+}
+
+.carousel-label-ges {
+    background-color: #621132;
+}
+
+.text-ges {
+    color: #621132;
+}

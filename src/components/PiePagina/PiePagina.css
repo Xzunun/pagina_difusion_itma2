@@ -1,0 +1,128 @@
+
+/* Estilos de pie de página para inicio */
+
+.pie-pagina-inicio {
+    margin-top: 6rem;
+    padding-top: 9rem;
+    background: 
+        url('../../../public/assets/img/fondos/ondas_pie_pagina.png'),
+        url('../../../public/assets/img/fondos/mapa_mundial.png'),
+        #198754
+    ;
+    background-position: 
+        center top,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.pie-pagina-inicio .btn.boton-red-social {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.pie-pagina-inicio .btn.boton-red-social:hover {
+    color: #198754;
+    transform: scale(1.1, 1.1);
+}
+
+/* Estilos de pie de página para sistemas */
+
+.pie-pagina-sistemas {
+    margin-top: 6rem;
+    padding-top: 9rem;
+    background: 
+        url('../../../public/assets/img/fondos/ondas_pie_pagina.png'),
+        url('../../../public/assets/img/fondos/mapa_mundial.png'),
+        #1b396a
+    ;
+    background-position: 
+        center top,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.pie-pagina-sistemas .btn.boton-red-social {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.pie-pagina-sistemas .btn.boton-red-social:hover {
+    color: #1b396a;
+    transform: scale(1.1, 1.1);
+}
+
+/* Estilos de pie de página para gestion */
+
+.pie-pagina-gestion {
+    margin-top: 6rem;
+    padding-top: 9rem;
+    background: 
+        url('../../../public/assets/img/fondos/ondas_pie_pagina.png'),
+        url('../../../public/assets/img/fondos/mapa_mundial.png'),
+        #621132
+    ;
+    background-position: 
+        center top,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.pie-pagina-gestion .btn.boton-red-social {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.pie-pagina-gestion .btn.boton-red-social:hover {
+    color: #621132;
+    transform: scale(1.1, 1.1);
+}
+
+/* Estilos de pie de página para industrial */
+
+.pie-pagina-industrial {
+    margin-top: 6rem;
+    padding-top: 9rem;
+    background: 
+        url('../../../public/assets/img/fondos/ondas_pie_pagina.png'),
+        url('../../../public/assets/img/fondos/mapa_mundial.png'),
+        #235b4e
+    ;
+    background-position: 
+        center top,
+        center center
+    ;
+    background-repeat: no-repeat;
+}
+
+.pie-pagina-industrial .btn.boton-red-social {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.pie-pagina-industrial .btn.boton-red-social:hover {
+    color: #235b4e;
+    transform: scale(1.1, 1.1);
+}

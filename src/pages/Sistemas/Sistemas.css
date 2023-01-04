@@ -1,0 +1,72 @@
+.efecto-blur-sistemas {
+    filter: blur(5px);
+}
+.fondo-blur-sistemas {
+    background-color: rgba(27, 57, 106, 0.75);
+}
+
+.titulo-encabezado-sistemas {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+
+.subtitulo-encabezado-sistemas {
+    font-size: 2vw;
+}
+
+.service-item-sistemas {
+    position: relative;
+    padding: 45px 30px;
+    background: #fff;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item-sistemas:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: #1b396a;
+}
+
+.service-item-sistemas h5,
+.service-item-sistemas p {
+    transition: .5s;
+}
+
+.service-item-sistemas:hover h5,
+.service-item-sistemas:hover p {
+    color: #fff;
+}
+
+.service-item-sistemas a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6c757d;
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item-sistemas a.btn:hover {
+    color: #fff;
+    background: #6c757d;
+}
+
+.service-item-sistemas:hover a.btn {
+    bottom: 0;
+}
+
+.carousel-label-sis {
+    background-color: #1b396a;
+}
+
+.text-sis {
+    color: #1b396a;
+}

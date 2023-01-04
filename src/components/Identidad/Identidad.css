@@ -1,0 +1,11 @@
+.identidad-titulo {
+    font-size: 6vw;
+}
+.identidad-texto {
+    font-size: 2vw;
+}
+
+.background-overlay {
+    background-color: rgb(25, 135, 84, 0.5);
+    backdrop-filter: blur(5px);
+}
